@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI\UI.csproj", "{00851FB7-01E9-4E23-861B-4ECD93C5DA84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UI", "UI\UI.csproj", "{00851FB7-01E9-4E23-861B-4ECD93C5DA84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WrbAPI\WebAPI.csproj", "{EA3B7323-C16E-44D0-9873-E8954EE4D66F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{00851FB7-01E9-4E23-861B-4ECD93C5DA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00851FB7-01E9-4E23-861B-4ECD93C5DA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00851FB7-01E9-4E23-861B-4ECD93C5DA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA3B7323-C16E-44D0-9873-E8954EE4D66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA3B7323-C16E-44D0-9873-E8954EE4D66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA3B7323-C16E-44D0-9873-E8954EE4D66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA3B7323-C16E-44D0-9873-E8954EE4D66F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

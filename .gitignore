@@ -2,8 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs
-/MyToDo/.vs/MyToDo
-/MyToDo/UI/obj
-/MyToDo/UI/bin/Debug/net8.0/wwwroot/_framework
-/MyToDo/UI/bin/
+**/.vs
+**/bin
+**/obj
